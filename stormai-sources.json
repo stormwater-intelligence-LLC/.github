@@ -1,0 +1,57 @@
+{
+  "organization": "stormwater-intelligence-LLC",
+  "title": "StormAI Source Map",
+  "status": "OFFICIAL",
+  "version": "1.0",
+  "date": "2026-09-01",
+  "source_order": [
+    "controlling_requirement",
+    "arcsec",
+    "approved_policy",
+    "approved_sop",
+    "approved_skill",
+    "approved_workflow",
+    "individual_action"
+  ],
+  "repositories": [
+    {
+      "name": ".github",
+      "role": "organization_source_map",
+      "source_status": "OFFICIAL",
+      "stormai_use": "REQUIRED_FOR_ORGANIZATION_DISCOVERY"
+    },
+    {
+      "name": "arcsec_protocols",
+      "role": "arcsec_operating_standards",
+      "source_status": "OFFICIAL",
+      "stormai_use": "REQUIRED",
+      "current_version": "2.0",
+      "document_status": "APPROVED"
+    },
+    {
+      "name": "mito_core",
+      "role": "supporting_tool",
+      "source_status": "SUPPORTING",
+      "stormai_use": "ONLY_WHEN_CALLED_BY_APPROVED_REQUIREMENT"
+    },
+    {
+      "name": "stormgpt",
+      "role": "legacy_stormgpt_repository",
+      "source_status": "LEGACY",
+      "stormai_use": "REFERENCE_ONLY"
+    },
+    {
+      "name": "Stormwater-Intelligence-Program-",
+      "role": "original_platform_prototype",
+      "source_status": "HISTORICAL",
+      "stormai_use": "REFERENCE_ONLY"
+    },
+    {
+      "name": "Stormwater-Intelligence-Program",
+      "role": "unassigned",
+      "source_status": "UNASSIGNED",
+      "stormai_use": "DO_NOT_LOAD"
+    }
+  ],
+  "rule": "StormAI must not infer authority from repository name, visibility, age, access permission, file presence, or technical capability. Unlisted or unclear repositories must not be treated as approved operating sources."
+}
