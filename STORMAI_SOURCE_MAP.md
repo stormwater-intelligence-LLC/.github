@@ -2,7 +2,7 @@
 
 **Organization:** Stormwater Intelligence LLC  
 **Status:** OFFICIAL  
-**Date:** September 1, 2026
+**Date:** September 13, 2026
 
 This document tells StormAI how to interpret repositories in the Stormwater Intelligence LLC GitHub organization.
 
@@ -65,11 +65,11 @@ Repository: `stormwater-intelligence-LLC/mito_core`
 
 ### `Stormwater-Intelligence-Program`
 
-**Role:** Not assigned  
-**StormAI use:** DO NOT LOAD  
-**Source status:** UNASSIGNED
+**Role:** Private experimental and analytical utility development  
+**StormAI use:** SUPPORTING TOOL — EXPLICIT INVOCATION ONLY  
+**Source status:** SUPPORTING
 
-This repository is currently empty. StormAI must not treat it as an operating source until its role is explicitly assigned and documented.
+This repository contains private analytical utilities developed for Stormwater Intelligence. Tools in this repository may be used when explicitly invoked by an approved workflow, user instruction, or authorized system action. Content in this repository is not a source of regulatory requirements, operating policy, or autonomous system authority and must not override controlling requirements, ARCSEC, approved policies, SOPs, skills, or workflows.
 
 Repository: `stormwater-intelligence-LLC/Stormwater-Intelligence-Program`
 
@@ -86,7 +86,7 @@ Repository: `stormwater-intelligence-LLC/.github`
 ## REPOSITORY STATUS TERMS
 
 - **OFFICIAL** — current organization source StormAI is allowed or required to use.
-- **SUPPORTING** — current tool or supporting source used only when called by an approved requirement or workflow.
+- **SUPPORTING** — current tool or supporting source used only when called by an approved requirement, workflow, or explicit authorized instruction.
 - **HISTORICAL** — preserved development history; not a current operating source.
 - **LEGACY** — earlier system material retained for reference or migration; not current operating authority.
 - **UNASSIGNED** — no current role has been approved; StormAI must not load it as an operating source.
