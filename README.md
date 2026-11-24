@@ -8,6 +8,12 @@ This repository is the shared source for the skills and plugin listed below. Wor
 | Working Agreement | [SKILL.md](skills/working-agreement/SKILL.md) | [v1.1.0](https://github.com/stormwater-intelligence-LLC/.github/releases/tag/working-agreement-v1.1.0) |
 | StormAI Command Center | [Plugin](skills/stormai-command-center) · [SKILL.md](skills/stormai-command-center/skills/stormai-command-center/SKILL.md) | [v1.1.1](skills/stormai-command-center/plugin.json) |
 
+## Project Stormwater
+
+Project Stormwater is the company project that houses the entire Stormwater Intelligence system. Daniel Guzman sets its direction. StormAI runs the project and owns the results. NEXUS coordinates execution across the project's agents, accounts, tools, and integrations.
+
+Each company project can use multiple accounts based on its purpose. An account can support more than one project. Daniel gives direction and receives results through one Command Center.
+
 ## Install the Ecosystem skill
 
 These scripts install the Ecosystem skill. For Working Agreement, use its source link above and follow your host application's skill import process.
