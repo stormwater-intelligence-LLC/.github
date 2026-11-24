@@ -21,7 +21,22 @@ Check the runtime Daniel is actually using and its registered operations before 
 
 The Video Production Subagents team defines 12 roles: Scene Artist, Animator, Video Editor, Quality Reviewer, Video Workflow Tester, Scene Animation Tester, Story Planner, Scriptwriter, Asset Librarian, Sound Editor, Thumbnail Designer, and Publishing Operator. Use the team's current role briefs and output requirements.
 
-The Command Center project previously used three host subagents with the assignment names `ecosystem_inventory`, `business_flow`, and `stormai_architecture`. Resolve these in the current host before reuse. The Six Subagent Team and any other installed or user-designated team should be discovered through its current roster. Carry the exact roles forward as they become available.
+The Command Center project previously used three host subagents with the assignment names `ecosystem_inventory`, `business_flow`, and `stormai_architecture`. Resolve these in the current host before reuse. Discover other installed or user-designated teams through their current rosters and carry their exact roles forward.
+
+## Six Subagent Team
+
+The installed ChatGPT skill `six-subagent-team` defines these six specialists. These roles are separate from identically named embedded StormAI operations. Verify actual host delegation before treating a specialist as callable.
+
+| Specialist | Assignment |
+|---|---|
+| Researcher | Find sources and verify provenance. |
+| Analyst | Analyze evidence, alternatives, and uncertainty. |
+| Planner | Break the goal into deliverables and dependencies. |
+| Builder | Implement an authorized change or create a verifiable artifact. |
+| Verifier | Independently check outputs, claims, and failure cases. |
+| Workflow specialist | Map steps, dependencies, ownership, and status. |
+
+NEXUS dispatches the specialists needed for the objective and returns their combined results to StormAI.
 
 ## Registration and dispatch
 
