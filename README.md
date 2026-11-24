@@ -1,6 +1,6 @@
 # Stormwater Intelligence LLC — Shared Agent Skills
 
-This repository is the shared source for two separate skills. Working Agreement sets the rules for how Codex works with Daniel across projects. The Ecosystem skill guides work on company accounts, tools, data sources, and agents. Use both together on company ecosystem tasks.
+This repository is the shared source for two separate skills. Working Agreement sets the rules for any AI assistant, agent, AI agent, automation, or software program acting on Daniel Guzman's behalf, across conversations, projects, and platforms. Each system needs to load the agreement or be configured to follow it. The Ecosystem skill guides work on company accounts, tools, data sources, and agents. Use both together on company ecosystem tasks.
 
 | Skill | Source | Release |
 |---|---|---|
