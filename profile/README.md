@@ -13,6 +13,7 @@ StormAI must use the official source map before deciding how a repository is use
 - [`STORMAI_SOURCE_MAP.md`](../STORMAI_SOURCE_MAP.md) — human-readable organization source map.
 - [`stormai-sources.json`](../stormai-sources.json) — machine-readable source map.
 - [`arcsec_protocols`](https://github.com/stormwater-intelligence-LLC/arcsec_protocols) — official ARCSEC operating standards. ARCSEC 2.0 is APPROVED.
+- [Shared Agent Skills](https://github.com/stormwater-intelligence-LLC/.github/blob/main/README.md) — find the Ecosystem and Working Agreement skills and their releases.
 
 Repository visibility or technical access does not make a repository an approved operating source.
 
