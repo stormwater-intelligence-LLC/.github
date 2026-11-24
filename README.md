@@ -1,11 +1,12 @@
 # Stormwater Intelligence LLC — Shared Agent Skills
 
-This repository is the shared source for two separate skills. Working Agreement sets the rules for any AI assistant, agent, AI agent, automation, or software program acting on Daniel Guzman's behalf, across conversations, projects, and platforms. Each system needs to load the agreement or be configured to follow it. The Ecosystem skill guides work on company accounts, tools, data sources, and agents. Use both together on company ecosystem tasks.
+This repository is the shared source for the skills and plugin listed below. Working Agreement sets the rules for any AI assistant, agent, AI agent, automation, or software program acting on Daniel Guzman's behalf, across conversations, projects, and platforms. Each system needs to load the agreement or be configured to follow it. The Ecosystem skill guides work on company accounts, tools, data sources, and agents. Use both together on company ecosystem tasks. StormAI Command Center defines StormAI as CEO, NEXUS as execution coordinator, and the six-subagent team.
 
-| Skill | Source | Release |
+| Skill or plugin | Source | Version |
 |---|---|---|
 | Stormwater Intelligence Ecosystem | [SKILL.md](skills/stormwater-intelligence-ecosystem/SKILL.md) | [v1.0.0](https://github.com/stormwater-intelligence-LLC/.github/releases/tag/stormwater-intelligence-ecosystem-v1.0.0) |
 | Working Agreement | [SKILL.md](skills/working-agreement/SKILL.md) | [v1.1.0](https://github.com/stormwater-intelligence-LLC/.github/releases/tag/working-agreement-v1.1.0) |
+| StormAI Command Center | [Plugin](skills/stormai-command-center) · [SKILL.md](skills/stormai-command-center/skills/stormai-command-center/SKILL.md) | [v1.1.1](skills/stormai-command-center/plugin.json) |
 
 ## Install the Ecosystem skill
 
