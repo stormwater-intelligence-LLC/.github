@@ -1,0 +1,3 @@
+# Command Center Runtime Acceptance
+
+Verify and preserve Daniel's chosen interface. Run checks proportional to the change: submit a real authorized objective through the normal controls, observe StormAI hand it to NEXUS, verify work in the correct accounts, and confirm results return to the same conversation. Test a provider handoff without re-entering the brief. For unattended execution, close the interface and verify a scheduled or event-triggered job still finishes. A live system needs a persistent record, a supported service listening for triggers, and real account connections. Report only the checks that passed.

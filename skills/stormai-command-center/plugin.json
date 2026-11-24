@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "guzman.danield@outlook.com",
+    "name": "Danny"
+  },
+  "description": "Operating instructions for StormAI as CEO, NEXUS as execution coordinator, and verified delivery in one conversation.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": "Use StormAI Command Center to handle my objective.",
+        "developerName": "Danny",
+        "displayName": "StormAI Command Center",
+        "longDescription": "Use one conversation to set objectives for StormAI, coordinate work through NEXUS, and receive verified results.",
+        "shortDescription": "Direct StormAI and NEXUS"
+      }
+    }
+  },
+  "name": "stormai-command-center",
+  "version": "1.1.0"
+}
