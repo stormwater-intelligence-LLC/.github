@@ -404,3 +404,143 @@ The ecosystem is progressing when:
 
 **Strategic principle: One company. Multiple technology ecosystems.
 Independent distribution channels. Integrated operations.**
+
+---
+
+## Operational extension — objective-driven execution
+
+**Owner and attribution:** Daniel Guzman / Stormwater Intelligence LLC. This extension operationalizes the existing company-wide ecosystem skill. It does not replace or revise the independent Master Automation, ARCSEC, Audit, Retrieval, Extractor, Convergence, Refactor, Rebuild, or other owner-controlled skills. Refer to the current registered source of each skill when invoking its methodology; never infer callable tool access merely from a plugin's name or registry record.
+
+### A. Objective and routing contract
+
+Translate each request into an explicit outcome before selecting tools:
+
+| Field | Meaning |
+|---|---|
+| `objective` | The owner's requested real-world outcome, in their words |
+| `target` | Exact company asset, account, project, environment, or source in scope |
+| `deliverables` | Files, deployed functionality, registrations, records, measurements, or other requested outputs |
+| `current_evidence` | Verified source and state, with links or artifact references |
+| `route` | Ordered skills, agents, platforms, or tools chosen for this particular objective |
+| `authority` | Actual permissions and any required approval for consequential external changes |
+| `completion_checks` | Tests or observations proving each requested output works |
+
+**Routing is flexible, not a fixed chain.** Any relevant skill or platform capability can start, follow, or repeat. Use only the subset justified by the objective. The owner may provide an explicit order, and that order controls unless it conflicts with actual tool or security constraints. The numbered standard workflow earlier in this document is a general reference path, not a restriction on operator-directed orchestration.
+
+For multi-skill work, call on Master Automation's current independent specification to coordinate methods where available. Keep this ecosystem skill responsible for company asset classification, account distinction, integrations, and business outcomes. Keep the individual skill's original stage names and contracts intact. A skill file by itself does not execute code, provide credentials, or grant access to another service.
+
+### B. Discovery and execution sequence
+
+For a specific objective, execute the applicable stages, revisiting them whenever evidence changes the needed route:
+
+1. **Resolve target identity.** Confirm account, organization, repository, branch, product, deployment, or data source precisely; use the owner's specified target over a similar-looking one.
+2. **Inspect available evidence.** Read relevant provided documents, accessible platform records, source, logs, API responses, or live interface output. Prefer current primary records over older summaries.
+3. **Map dependencies.** Identify APIs, MCP servers, OAuth connections, agents, databases, data provenance, permissions, publishing channels, and downstream assets actually implicated in the objective.
+4. **Select capabilities.** Choose tools and independent skills according to the task, including alternate routes when an intended tool is unavailable. Do not assume every skill or platform must be used.
+5. **Execute substantive work.** Produce the requested integration, operating change, artifact, audit, content, verified data extraction, workflow, or other output where access and authority permit. Do not replace requested implementation with a plan.
+6. **Capture evidence as work occurs.** Save actual outputs, service responses, source references, tests, errors, and decisions; distinguish observed from reported and inferred.
+7. **Verify results.** Reopen outputs, rerun applicable tests, confirm destination state, compare against the requested outcome, and correct findings where permitted.
+8. **Report and log.** Present delivered artifacts and their locations, actual tests, operational status, remaining gaps, and next dependency. Report status honestly rather than claiming a connection or deployment based on its configuration alone.
+
+### C. Shared asset registry — minimum record
+
+Keep a structured register of company assets. Records may be stored in a file, database, or accessible operational application chosen for the task; no specific vendor is required.
+
+```yaml
+asset_id: "<actual stable identifier>"
+asset_name: "<verified name>"
+asset_type: "owned_asset | account_profile | organization | business_listing | integration | data_source | distribution_channel | potential_opportunity"
+provider: "<service or system>"
+canonical_url: null
+account_or_org: null
+owner_or_admin: "unknown"
+related_company_asset_ids: []
+purpose: "<objective served>"
+permission_status: "unverified"
+operational_status: "unverified"
+integration_method: null
+credential_reference: null # identifier only; never a credential value
+source_evidence: []
+last_verified_at: null
+known_dependencies: []
+known_issues: []
+next_action: null
+```
+
+Preserve multiple records for accounts that share a provider. In particular, keep the two named GitHub organizations and separate YouTube channels distinct. Treat references to federal agencies as data-source relationships unless a separate authenticated provider integration is verified.
+
+### D. Integration and agent execution receipts
+
+For any actual cross-system operation, capture an execution record. Use null or `not_observed` where a value cannot be established; do not fabricate telemetry.
+
+```yaml
+execution_id: "<real identifier if available>"
+objective: "<owner's requested outcome>"
+initiator: "<actual initiating actor>"
+target_asset_ids: []
+route_taken: [] # ordered ACTUAL steps, not planned steps
+started_at: null
+operations:
+  - capability: "<tool / plugin / agent actually used>"
+    target: "<asset or endpoint>"
+    operation: "<action performed>"
+    result: "<observed outcome>"
+    evidence_refs: []
+    errors: []
+outputs:
+  - name: "<requested deliverable>"
+    location: null
+    validation: "verified | produced_unverified | partial | blocked | not_produced"
+    evidence_refs: []
+ended_at: null
+objective_status: "partial"
+limitations: []
+```
+
+A completed step is not proof of completion of the overall objective. Never infer an agent process launched merely because a task was assigned or a plugin description was read. Preserve the source of each execution claim.
+
+### E. Capability-specific evidence requirements
+
+| Objective family | Evidence of real completion |
+|---|---|
+| Account or business listing | Canonical URL, verified identity and role, observed listing state |
+| OAuth / API / MCP integration | Confirmed connection and a relevant successful authorized operation; configuration alone is insufficient |
+| GitHub / source management | Exact repository and branch, actual commit or file state, and comparison to intended change |
+| Application build / rebuild | Inspectable output, functioning entry point, meaningful runtime and user-interaction tests |
+| Data-source connection | Actual response, dataset identity, date or freshness, handling of missing/error states |
+| Agent workflow | Real invocation evidence, subordinate outputs, errors, independent checks where applicable |
+| Publishing | Provider-confirmed publish or scheduled state, canonical link or ID, and correct destination identity |
+| Business analytics | Source, metric definition, time window, observed values and a defensible interpretation |
+| Compliance work | Relevant controlling regulatory sources and verified applicability; follow dedicated QSD workflow |
+
+### F. Outcome-specific workflows
+
+**Connect a new service:** identify the correct account → inspect available integration methods → confirm supported permissions → configure or authorize using available platform tools → test a meaningful permitted read/write operation → record status and dependencies. Do not call it operational before a genuine end-to-end check.
+
+**Recover or rebuild an existing system:** identify original and target environments separately → gather source, assets, behavior, logs, and historical versions → preserve provenance → dispatch appropriate Audit / ARCSEC / Vision / Extractor / Convergence / Rebuild capabilities as justified → construct an isolated candidate → run functional and visual comparisons → report recovered versus inferred portions. The route may change between runs; the ecosystem skill does not force a predefined plugin order.
+
+**Coordinate AI agents:** define the requested outcome → resolve available agents and permitted tools → delegate bounded tasks → receive actual execution results → reconcile artifacts and conflicts → independently verify the combined output → log the factual route taken. Do not simulate subagent output.
+
+**Publish and distribute:** identify approved asset and audience → select relevant channels rather than every channel → prepare channel-appropriate materials → publish through actual connected tools when authorized → verify links and provider state → measure results with observed analytics. Keep company and separate personal channels distinct.
+
+**Audit the ecosystem:** inventory accessible in-scope assets across all six layers → verify current state and dependencies → classify operational/configured/blocked/unknown status → identify owner-controlled remediation opportunities → deliver an evidence-linked register and report. Record inaccessible assets explicitly; do not silently claim total coverage.
+
+### G. Feedback and ongoing improvement
+
+After each substantive run, compare actual outputs to the requested outcome. Preserve errors and incomplete attempts as useful evidence. Future runs may use earlier records when accessible, but must confirm whether the original environment, credentials, dependencies, or deployment changed. Do not claim automatic autonomous learning merely because a record was written.
+
+Re-route based on current findings rather than repeating a fixed chain. For example, a visual mismatch can trigger additional Vision and Rebuild work; missing source can trigger Retrieval or Extractor; contradictory accounts can trigger Audit and Convergence. Every reroute should remain traceable to an objective and evidence.
+
+### H. Definition of done and final response contract
+
+A request is **COMPLETE** only when the actual requested outputs exist and the applicable acceptance checks have passed. Otherwise specify **PARTIAL**, **BLOCKED**, or **NOT VERIFIED** with the exact missing artifact or test. Report:
+
+1. Original objective and target identity.
+2. Actual work performed and capabilities invoked, in real execution order.
+3. Delivered outputs with verified locations.
+4. Evidence and tests supporting the result.
+5. Changes made, remaining limitations, and relevant next dependencies.
+
+Give priority to the requested end result. Source code, raw telemetry, reports, or process descriptions are supporting evidence unless the owner specifically requested them as the deliverable.
+
+**Ownership and operating principle:** Stormwater Intelligence LLC retains its own business identities, assets, and operational decisions. Independent AI skills are reusable methods. Their combination is objective-driven, their execution depends on actual accessible capabilities, and their work is measured by verified outcomes.
